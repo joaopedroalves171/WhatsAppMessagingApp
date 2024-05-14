@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, TextInput, Button, Linking } from 'react-native';
 
-const Parentpai = () => {
+const Parentcomponente = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
   const [message, setMessage] = useState('');
 
@@ -32,4 +32,4 @@ const Parentpai = () => {
   );
 };
 
-export default Parentpai;
+export default Parentcomponente;
