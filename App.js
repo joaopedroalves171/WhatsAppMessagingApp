@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Parentpai from './component';
+import Parentcomponente from './component';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Parentpai />
+      <Parentcomponente />
     </View>
   );
 };
